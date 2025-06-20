@@ -1,6 +1,7 @@
 # AI Projects
 
 Copy of AI project code in private repos.
+
 Please request the source code for the associated projects at rahulpuranam@gmail.com
 
 ## Project 1: Path-Finding Algorithms and Genetic Algorithm
