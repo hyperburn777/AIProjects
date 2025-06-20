@@ -1,6 +1,6 @@
 # AI Projects
 
-Copy of AI project code in private repos.
+Copy of AI project codes from private repos.
 
 Please request the source code for the associated projects at rahulpuranam@gmail.com
 
