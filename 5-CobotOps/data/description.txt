@@ -1,0 +1,39 @@
+The UR3 CobotOps Dataset is an essential collection of multi-dimensional time-series data from the UR3 cobot,
+offering insights into operational parameters and faults for machine learning in robotics and automation.
+It features electrical currents, temperatures, speeds across joints (J0-J5), gripper current, operation cycle count,
+protective stops, and grip losses, collected via MODBUS and RTDE protocols. This dataset supports research in fault detection,
+predictive maintenance, and operational optimization, providing a detailed operational snapshot of a leading cobot model for industrial applications.
+
+Dataset Characteristics
+Multivariate, Time-Series
+
+Subject Area
+Engineering
+
+Associated Tasks
+Classification, Regression, Clustering, Other
+
+Feature Type
+Real, Categorical, Integer
+
+# Instances
+7409
+
+# Features
+20
+
+Has Missing Values?
+Yes
+
+Variables Table
+Variable Name  |  Role  |  Type  |  Description  |  Units  |  Missing Values
+Current_J0  |  Feature  |  Continuous  |    |    |  yes
+Temperature_T0  |  Feature  |  Continuous  |    |    |  yes
+Current_J1  |  Feature  |  Continuous  |    |    |  yes
+Temperature_J1  |  Feature  |  Continuous  |    |    |  yes
+Current_J2  |  Feature  |  Continuous  |    |    |  yes
+Temperature_J2  |  Feature  |  Continuous  |    |    |  yes
+Current_J3  |  Feature  |  Continuous  |    |    |  yes
+Temperature_J3  |  Feature  |  Continuous  |    |    |  yes
+Current_J4  |  Feature  |  Continuous  |    |    |  yes
+Temperature_J4  |  Feature  |  Continuous  |    |    |  yes
