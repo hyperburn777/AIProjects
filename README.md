@@ -33,6 +33,8 @@ Key Components:
 
 For implementation details and constraints, refer to the assignment PDF.
 
+Test out this agent at https://hyperburn777.github.io/go.html
+
 ## Project 3: Little Prince and Viterbi Algorithm
 
 This project focuses on temporal reasoning using Partially Observable Markov Decision Processes (POMDPs) to solve two problems:
