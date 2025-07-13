@@ -16,7 +16,7 @@ Key Components:
 - 3D Euclidean distance calculations
 - Input/Output: Reads coordinates from input.txt and writes the optimal path to output.txt
 
-For implementation details and constraints, refer to the assignment PDF.
+For implementation details and constraints, refer to the assignment PDF in `1-GeneticAlgo`.
 
 ## Project 2: Little-Go Agent
 
@@ -31,7 +31,7 @@ Key Components:
 - Agent Implementation: Utilized alpha-beta pruning with minimax for optimal decision-making
 - Input/Output: Reads board states from input.txt and outputs moves to output.txt (e.g., 2,3 or PASS)
 
-For implementation details and constraints, refer to the assignment PDF.
+For implementation details and constraints, refer to the assignment PDF in `2-AIGo`.
 
 Test out this agent at https://hyperburn777.github.io/go.html
 
@@ -54,7 +54,7 @@ Key Components:
 - Implement the Viterbi algorithm to infer the optimal hidden state sequence
 - Output results in the specified format to states.txt
 
-For implementation details and constraints, refer to the assignment PDF.
+For implementation details and constraints, refer to the assignment PDF in `3-LittlePrince`.
 
 ## Project 4: Iris Dataset Classification
 
@@ -85,3 +85,20 @@ Key Components:
 - Optimization: Suggests improvements or automates aspects of cobot workflows
 
 For implementation details and constraints, refer to the code in `5-CobotOps/cobotops.py` and the dataset in `5-CobotOps/data/`.
+
+## Project 6: AP News Scraper & Sentiment Analyzer
+
+This project implements a comprehensive news analysis system that scrapes top stories from AP News and performs advanced sentiment analysis. The system combines web scraping capabilities with natural language processing to extract insights from current news content.
+<br />
+<!-- No image available for this project -->
+<br />
+
+Key Components:
+- **News Scraping**: Automated extraction of headlines, summaries, and full article text from AP News
+- **Multi-method Sentiment Analysis**: Uses both VADER and TextBlob for comprehensive sentiment scoring
+- **Entity Recognition**: Dynamically identifies organizations, industries, and locations mentioned in articles
+- **Industry Classification**: Categorizes content by industry (healthcare, technology, finance, media, etc.)
+- **Keyword Analysis**: Extracts positive and negative keywords that influence sentiment scores
+- **Data Storage**: Saves results in both JSON format and individual text files for detailed analysis
+
+For implementation details and constraints, refer to the code in `6-News/scraper.py`, `6-News/analyzer.py`, and the documentation in `6-News/README.md`.

@@ -1,0 +1,126 @@
+SENTIMENT ANALYSIS RESULTS
+==================================================
+
+01_Charges dropped against Utah doctor accused of throwing away $28,000 in COVID vaccine doses.txt: negative
+Reasoning: VADER negative (-0.475), TextBlob polarity: 0.167
+Positive phrases: a specified charitable organization, specified charitable organization ., specified charitable organization, covid-19 vaccines saved millions, that covid-19 vaccines saved, courage and his commitment, u.s. department of justice, vaccines saved millions of, the interests of justice., to a specified charitable
+Negative phrases: being charged with conspiracy, vaccine doses were destroyed, the government ; conspiracy, charged with conspiracy to, prison after being charged, with conspiracy to defraud, government ; conspiracy to, conspiracy to defraud the, conspiracy to convert ,, government ; conspiracy
+Positive keywords: charitable, commitment, courage, giving, grand, interests, justice, medal, saved, support, top
+Negative keywords: accused, charged, charges, conspiracy, destroyed, prison, refused
+
+Industry/Entity Analysis:
+  Salt Lake City (Organization): positive sentiment
+    Entity mentioned 2 times with positive sentiment (score: 0.388)
+  Lake City (Organization): positive sentiment
+    Entity mentioned 2 times with positive sentiment (score: 0.388)
+  Healthcare (Industry): positive sentiment
+    Indicators: patient, health
+    Entity mentioned 2 times with positive sentiment (score: 0.314)
+  Media (Industry): positive sentiment
+    Indicators: media, press
+    Entity mentioned 2 times with positive sentiment (score: 0.127)
+  Government (Industry): positive sentiment
+    Indicators: department, federal
+    Entity mentioned 4 times with positive sentiment (score: 0.116)
+  Transportation (Industry): neutral sentiment
+    Indicators: car
+    Entity mentioned 2 times with neutral sentiment (score: -0.049)
+
+02_Making healthy snacks a habit when afternoon energy slumps strike at work.txt: positive
+Reasoning: VADER positive (0.999), TextBlob polarity: 0.195
+Positive phrases: commitment to healthy snacking, are more attractive instead, more attractive instead of, attractive instead of just, and work more efficiently, have better brain clarity, her commitment to healthy, a coworker is celebrating, coworker is celebrating a, is celebrating a birthday
+Negative phrases: problem with eating packaged, deprive yourself entirely of, to deprive yourself entirely, deprive yourself entirely, the problem with eating, stinking chip and just, have the stinking chip, the stinking chip and, to get another crash, get another crash ,
+Positive keywords: attractive, better, boost, celebrating, challenging, chance, clarity, comfort, commitment, cute, easy, efficiently, energy, enjoy, fitness
+Negative keywords: crash, deprive, derail, drop, emergency, fire, hunger, nuts, problem, stinking
+
+Industry/Entity Analysis:
+  Healthcare (Industry): positive sentiment
+    Indicators: health
+    Entity mentioned 9 times with positive sentiment (score: 0.544)
+  Energy (Industry): positive sentiment
+    Indicators: oil, energy
+    Entity mentioned 3 times with positive sentiment (score: 0.525)
+  Transportation (Industry): positive sentiment
+    Indicators: car
+    Entity mentioned 12 times with positive sentiment (score: 0.198)
+  Cleveland Clinic (Organization): negative sentiment
+    Entity mentioned 2 times with negative sentiment (score: -0.159)
+  Agriculture (Industry): positive sentiment
+    Indicators: food
+    Entity mentioned 2 times with positive sentiment (score: 0.124)
+  Education (Industry): neutral sentiment
+    Indicators: school, education, teacher
+    Entity mentioned 2 times with neutral sentiment (score: 0.021)
+
+03_‘Superman’ brings a message of hope to a cynical world.txt: positive
+Reasoning: VADER positive (1.000), TextBlob polarity: 0.150
+Positive phrases: strength and metahuman abilities, beloved superhero will bring, exciting for younger people, hopes the beloved superhero, certain amount of optimism, the beloved superhero will, really amazing that this, hope after a challenging, amazing that this movie, be exciting for younger
+Negative phrases: to fight against injustice, fight against injustice ., whatever problem that you, terrible week , consuming, actually doing them harm, fight against injustice, “ whatever problem that, deal with the problems, having a terrible week, to the chaotic worlds
+Positive keywords: abilities, accepted, amazing, beautiful, beloved, best, better, certain, challenging, cool, create, desire, dynamic, exciting, friend
+Negative keywords: attack, chaotic, confront, cynical, exposing, failed, fight, harm, injustice, isolated, problem, problems, suicide, terrible, troubled
+
+Industry/Entity Analysis:
+  Daily Planet (Organization): positive sentiment
+    Entity mentioned 5 times with positive sentiment (score: 0.742)
+  Justice Gang (Organization): positive sentiment
+    Entity mentioned 2 times with positive sentiment (score: 0.677)
+  Technology (Industry): positive sentiment
+    Indicators: app, tech
+    Entity mentioned 4 times with positive sentiment (score: 0.619)
+  Media (Industry): positive sentiment
+    Indicators: news, media, press, journalist, reporter
+    Entity mentioned 11 times with positive sentiment (score: 0.561)
+  The Man (Organization): positive sentiment
+    Entity mentioned 2 times with positive sentiment (score: 0.510)
+  Skyler Gisondo (Organization): positive sentiment
+    Entity mentioned 2 times with positive sentiment (score: 0.428)
+
+04_California farmworker who fell from greenhouse roof during chaotic ICE raid dies.txt: negative
+Reasoning: VADER negative (-0.981), TextBlob polarity: -0.095
+Positive phrases: reward for information leading, 50,000 reward for information, generous donor to california, the united food workers, reward for information, still on life support, him care as quickly, farrar , a generous, a generous donor to, $ 50,000 reward for
+Negative phrases: criminal search warrants thursday, california cannabis facility died, executed criminal search warrants, assaulting or resisting officers, cruel federal actions terrorize, cannabis facility died saturday, citizens were arrested during, death prematurely late friday, arrested during the incident, u.s. citizens were arrested
+Positive keywords: care, generous, helping, reward, security, support, united
+Negative keywords: arrest, arrested, assaulting, broke, chaotic, cries, criminal, critic, cruel, death, detained, die, died, firing, gun
+
+Industry/Entity Analysis:
+  Jaime Alanis (Organization): negative sentiment
+    Entity mentioned 2 times with negative sentiment (score: -0.765)
+  Glass House Farms (Organization): negative sentiment
+    Entity mentioned 3 times with negative sentiment (score: -0.704)
+  House Farms (Organization): negative sentiment
+    Entity mentioned 3 times with negative sentiment (score: -0.704)
+  Media (Industry): negative sentiment
+    Indicators: news, media, press
+    Entity mentioned 3 times with negative sentiment (score: -0.461)
+  Healthcare (Industry): negative sentiment
+    Indicators: hospital, medical
+    Entity mentioned 3 times with negative sentiment (score: -0.424)
+  Transportation (Industry): negative sentiment
+    Indicators: car
+    Entity mentioned 2 times with negative sentiment (score: -0.380)
+
+05_59 Palestinians in Gaza are killed by Israeli airstrikes or shot dead while seeking aid.txt: negative
+Reasoning: VADER negative (-0.999), TextBlob polarity: -0.016
+Positive phrases: local friend mohammed al-shalabi, friend mohammed al-shalabi were, supporters of israeli hostages, agreement between israel and, nearing an agreement between, relatives and supporters of, an agreement between israel, friend mohammed al-shalabi, friends and relatives paid, and supporters of israeli
+Negative phrases: palestinian attacks and israeli, along with palestinian attacks, with palestinian attacks and, attacks and israeli military, such mass casualty incidents, palestinians shot dead were, blocked and then restricted, 31 palestinians shot dead, death by israeli settlers, investigate his death and
+Positive keywords: agreement, alive, friend, friends, reaching, respect, respects, responsive, security, supporters
+Negative keywords: abducted, accused, arrogance, attack, attacks, avoid, beaten, beating, blocked, casualty, confrontation, dangerous, dead, death, demanding
+
+Industry/Entity Analysis:
+  Technology (Industry): negative sentiment
+    Indicators: app
+    Entity mentioned 3 times with negative sentiment (score: -0.722)
+  Media (Industry): negative sentiment
+    Indicators: news, media, press, reporter
+    Entity mentioned 5 times with negative sentiment (score: -0.605)
+  Nasser Hospital (Organization): negative sentiment
+    Entity mentioned 2 times with negative sentiment (score: -0.591)
+  Healthcare (Industry): negative sentiment
+    Indicators: hospital, health
+    Entity mentioned 14 times with negative sentiment (score: -0.552)
+  Gaza Strip (Organization): negative sentiment
+    Entity mentioned 7 times with negative sentiment (score: -0.544)
+  Defense (Industry): negative sentiment
+    Indicators: military, weapon, security
+    Entity mentioned 11 times with negative sentiment (score: -0.543)
+
