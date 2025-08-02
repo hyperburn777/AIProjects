@@ -79,10 +79,9 @@ This project analyzes and optimizes collaborative robot (cobot) operations using
 <br />
 
 Key Components:
-- Data Analysis: Loads and processes cobot operation data from Excel files
-- Feature Extraction: Identifies key metrics and operational patterns
-- Visualization: Generates plots and summaries to highlight trends and anomalies
-- Optimization: Suggests improvements or automates aspects of cobot workflows
+- Data Analysis: Processes cobot operation data from Excel files
+- Pattern Recognition: Identifies operational trends and anomalies
+- Optimization: Suggests workflow improvements
 
 For implementation details and constraints, refer to the code in `5-CobotOps/cobotops.py` and the dataset in `5-CobotOps/data/`.
 
@@ -94,11 +93,24 @@ This project implements a comprehensive news analysis system that scrapes top st
 <br />
 
 Key Components:
-- **News Scraping**: Automated extraction of headlines, summaries, and full article text from AP News
-- **Multi-method Sentiment Analysis**: Uses both VADER and TextBlob for comprehensive sentiment scoring
-- **Entity Recognition**: Dynamically identifies organizations, industries, and locations mentioned in articles
-- **Industry Classification**: Categorizes content by industry (healthcare, technology, finance, media, etc.)
-- **Keyword Analysis**: Extracts positive and negative keywords that influence sentiment scores
-- **Data Storage**: Saves results in both JSON format and individual text files for detailed analysis
+- Web Scraping: Extracts news content from AP News
+- Sentiment Analysis: Uses VADER and TextBlob for sentiment scoring
+- Entity Recognition: Identifies organizations and industries in articles
 
 For implementation details and constraints, refer to the code in `6-News/scraper.py`, `6-News/analyzer.py`, and the documentation in `6-News/README.md`.
+
+## Project 7: Rock, Paper, Scissors with AI Learning
+
+This project implements an intelligent Rock, Paper, Scissors game where the AI opponent learns from the player's patterns to improve its strategy over time. The AI uses conditional probability learning to predict and counter the player's moves based on their historical choices.
+<br />
+<!-- No image available for this project -->
+<br />
+
+Key Components:
+- Conditional Probability Learning: AI learns player move patterns
+- Pattern Recognition: Predicts future moves based on history
+- Adaptive Strategy: Adjusts AI strategy to counter learned patterns
+
+The AI learns by observing the player's move sequences and updating conditional probability tables. It then uses these probabilities to predict the player's next move and choose the optimal counter-move. The system is inspired by the University of Stirling's RPS game and demonstrates fundamental concepts in machine learning and game theory.
+
+For implementation details and to play the game, refer to the code in `7-RPS/rps.py`.
